@@ -1,3 +1,27 @@
+macro_tmux4: macro_tmux4{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux4";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp A>, <&kp NUMBER_4>;
+};
+macro_tmux3: macro_tmux3{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux3";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp A>, <&kp NUMBER_3>;
+};
+macro_tmux2: macro_tmux2{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux2";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp A>, <&kp NUMBER_2>;
+};
+macro_tmux1: macro_tmux1{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux1";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp A>, <&kp NUMBER_1>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
@@ -9,6 +33,30 @@ compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
 bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+};
+macro_braces: macro_braces{
+compatible = "zmk,behavior-macro";
+label = "macro_braces";
+#binding-cells = <0>;
+bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+};
+macro_parens: macro_parens{
+compatible = "zmk,behavior-macro";
+label = "macro_parens";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+};
+macro_brackets: macro_brackets{
+compatible = "zmk,behavior-macro";
+label = "macro_brackets";
+#binding-cells = <0>;
+bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
